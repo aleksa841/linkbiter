@@ -1,0 +1,16 @@
+fastapi~=0.115.8
+uvicorn~=0.34.0
+
+sqlalchemy~=2.0.37
+alembic~=1.14.1
+asyncpg~=0.29.0
+
+python-dotenv~=1.0.1
+pydantic~=2.10.6
+
+apscheduler==3.11.2
+
+fastapi-users[sqlalchemy]
+fastapi-users-db-sqlalchemy
+fastapi-cache2[redis]==0.2.2
+redis>=4.6,<5.0
